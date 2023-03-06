@@ -5,21 +5,25 @@ import qrcode from "qrcode-terminal";
 // CONFIG CONSTANTS
 
 const COLLECTION_ADDRESS = Address.parse(
-  "kQCcE4A36AzUOGfTYI_-NOxILUImU5T3YNH4ky5IXfsI1ovj"
+  // "kQCcE4A36AzUOGfTYI_-NOxILUImU5T3YNH4ky5IXfsI1ovj"
+  "kQBB2-G2tRLulmHjEkNYTgttrU4KkuO2hX2JN7Sprt-2Iv_9"
 );
 
 const OWNER_ADDRESS = Address.parse(
-  "kQD51fCnbbKyzAfxNF0Bsi4hXZ8JC0Md2-aB9hqo6H5Ymk9w"
+  // "kQD51fCnbbKyzAfxNF0Bsi4hXZ8JC0Md2-aB9hqo6H5Ymk9w"
+  "kQCkIWurX_1uWQGsKkNu_LvGI0mB6Tsx2SdgkbXebo6m-CKj"
 );
 
 const RECEIVER_ADDRESS = Address.parse(
-  "kQCxLho_ohqvZnMMDxJQ81ngZ4SljtTBJYjswm3ewr-1v4yD"
+  // "kQCxLho_ohqvZnMMDxJQ81ngZ4SljtTBJYjswm3ewr-1v4yD"
+  "kQCkIWurX_1uWQGsKkNu_LvGI0mB6Tsx2SdgkbXebo6m-CKj"
 );
 
 const INDEX = 1;
 
 const METADATA_URL =
-  "https://ipfs.io/ipfs/Qmd5YSeFtha7PQpdRoQtWEgmadA7A679DecN2BfweWNXVD?filename=vudi-sbt.json";
+  // "https://ipfs.io/ipfs/Qmd5YSeFtha7PQpdRoQtWEgmadA7A679DecN2BfweWNXVD?filename=vudi-sbt.json";
+  "https://github.com/raphaelpg/IPFS-gatsby-typescript-portfolio/blob/master/src/images/irrigate-polygon.jpeg";
 
 // ------------------------
 

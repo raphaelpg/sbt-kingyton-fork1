@@ -11,8 +11,11 @@ import qs from "qs";
 
 const MODE: "test" | "main" = "test";
 
+// Wallet address: kQCkIWurX_1uWQGsKkNu_LvGI0mB6Tsx2SdgkbXebo6m-CKj
+
 const OWNER_ADDRESS = Address.parse(
-  "kQD51fCnbbKyzAfxNF0Bsi4hXZ8JC0Md2-aB9hqo6H5Ymk9w"
+  // "kQD51fCnbbKyzAfxNF0Bsi4hXZ8JC0Md2-aB9hqo6H5Ymk9w"
+  "kQCkIWurX_1uWQGsKkNu_LvGI0mB6Tsx2SdgkbXebo6m-CKj"
 );
 
 // ------------------------
@@ -25,7 +28,8 @@ const main = async () => {
     ownerAddress: OWNER_ADDRESS,
     nextItemIndex: 0,
     collectionContent:
-      "https://ipfs.io/ipfs/QmW9boM44rdJCarBDzkEWRB8HSEBFJXjtVQTVggBCJZA11?filename=Vudi_Happy_new_Year.json",
+      // "https://ipfs.io/ipfs/QmW9boM44rdJCarBDzkEWRB8HSEBFJXjtVQTVggBCJZA11?filename=Vudi_Happy_new_Year.json",
+      "https://github.com/raphaelpg/IPFS-gatsby-typescript-portfolio/blob/master/src/images/irrigate-polygon.jpeg",
     commonContent: "",
     nftItemCode: itemCode,
     royaltyParams: {
